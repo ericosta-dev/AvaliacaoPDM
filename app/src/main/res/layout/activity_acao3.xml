@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical"
+        tools:context=".ActivityAcao3">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/textViewTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titulo"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textViewAutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autor"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textViewAno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ano"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textViewNota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp">
+
+            <Button
+                android:id="@+id/btnAnterior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="36dp"
+                android:enabled="false"
+                android:text="@string/btnAnterior"
+                app:backgroundTint="#E91E63" />
+
+            <Button
+                android:id="@+id/btnProx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:text="@string/btnProximo"
+                app:backgroundTint="#E91E63" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
